@@ -11,7 +11,7 @@ development:
   reconnect: false
   database: um_development
   pool: 5
-  username: root
+  username: root1
   password:
   socket: /var/run/mysqld/mysqld.sock
 
