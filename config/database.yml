@@ -11,8 +11,8 @@ development:
   reconnect: false
   database: um_development
   pool: 5
-  username: root12
-  password:
+  username: um
+  password: um
   socket: /var/run/mysqld/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -22,18 +22,18 @@ test:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: um_test
+  database: um_development
   pool: 5
-  username: root
-  password:
+  username: um
+  password: um
   socket: /var/run/mysqld/mysqld.sock
 
 production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: um_production
+  database: um_development
   pool: 5
-  username: root
-  password:
+  username: um
+  password: um
   socket: /var/run/mysqld/mysqld.sock
